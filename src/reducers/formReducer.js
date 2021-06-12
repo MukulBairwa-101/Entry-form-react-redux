@@ -19,10 +19,6 @@
 
         case "UPDATE-INDEX":
             return { list, currentIndex: action.payload }
-
-        case "SEARCH":
-
-            return 
         default:
             return state;
     }

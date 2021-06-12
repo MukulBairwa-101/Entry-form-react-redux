@@ -12,6 +12,7 @@ class Form extends Component {
     returnStateObject() {
         if (this.props.currentIndex == -1) {
             return {
+                
                 startService: "",
                 endService: "",
                 pcode: "",
@@ -30,7 +31,8 @@ class Form extends Component {
                 amount: "",
                 email: "",
                 tel: ""
-            }
+            
+                }
         }
         else {
             return this.props.list[this.props.currentIndex]
