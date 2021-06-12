@@ -1,0 +1,32 @@
+.table-box {
+  width: 80%;
+  margin: 1rem;
+  border: .1rem solid #dedede;
+  font-size: .8rem;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.table-box tr {
+  border: .1rem solid #dedede;
+}
+
+.table-box tr td {
+  border: .1rem solid #dedede;
+  text-align: center;
+}
+
+.table-box tr td .data-btn {
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  color: firebrick;
+}
+
+.table-box tr td .data-btn .edit {
+  color: #2e6f9e;
+}
+/*# sourceMappingURL=Datalist.css.map */
