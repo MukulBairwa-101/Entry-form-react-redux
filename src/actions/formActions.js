@@ -24,3 +24,4 @@ export const updateIndex =index =>{
         payload:index
     }
 }
+

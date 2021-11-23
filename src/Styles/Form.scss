@@ -7,11 +7,15 @@ $headerColor:#06518f;
     color:white;
     font-size: 1.3rem;
     padding: .5rem;
+    width:100%;
 
+   
 }
 .Form-wrapper{
     margin:2rem;
     padding: 1rem;
+
+  
     
     .heading{
         width: 70%;
@@ -21,6 +25,8 @@ $headerColor:#06518f;
         margin-bottom: 3rem;
         padding-left: 2rem;
         border-bottom: .09rem solid rgb(31, 77, 124);
+        
+
         
     }
     .form-container{

@@ -76,4 +76,16 @@
      
         }
     }
+    .last-row{
+        background-color: white;
+        
+        td:last-child,td:first-child {
+            background-color: #173d63;
+            color: white;
+            font-weight: 600;
+            border: none;
+            outline: none;
+        }
+    }
+   
 }
